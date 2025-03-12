@@ -7,6 +7,7 @@ const user = {
     prenom : "john",
     nom:"doe"
 }
+
 console.log(user);
 const keys = Object.keys(user) // [ prenom , nom ];
 console.log(a); // undefined
