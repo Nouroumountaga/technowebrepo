@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    width: 400px;
+    margin: auto;
+}
+
+#chart2{
+    margin-top: 4vh;
+    margin-left: 30px 10px;
+}
+#myChart,#chart2,#chart3{
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 4px 4px 4px #d1d1d1;
+    transition: 0.3s;
+}
+#chart2:hover{
+    transform: translateY(-5px);
+}
+#myChart:hover{
+    transform: translateY(-5px);
+}
+#myChart3:hover{
+    transform: translateY(-5px);
+}
+#map{
+    height: 400px;
+    width: 600px;
+}
