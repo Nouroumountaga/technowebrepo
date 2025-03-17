@@ -1,5 +1,5 @@
 //implements IDistributeur;
-class DistributeurCafe  {
+class DistributeurCafe  implements IDistributeur{
    private  double prixCafeCourt;
    private  double prixCafeLong;
 
@@ -76,4 +76,15 @@ class DistributeurCafe  {
    public int cpReservoir (){
     return cpReservoir;
    }
+
+   public double boireCafeCourt(double somme){
+    sommeArgent+=prixCafeCourt;
+    return  somme - prixCafeCourt;
+   }
+
+   public double boireCafeLong(double somme){
+    sommeArgent+=prixCafeLong;
+    return  somme - prixCafeLong;
+   }
+
 }
