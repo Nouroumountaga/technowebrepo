@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Jeu</title>
+</head>
+<body>
+    <div id="shifumi">
+        <div class="container">
+          <div>Player</div>
+          <div id="player">
+            <img src="../assets/pierre.png"  id="player_0">
+            <img src="../assets/feuille.png" id="player_1">
+            <img src="../assets/ciseaux.png" id="player_2">
+          </div>
+          <div >Score : <span id="scoreP">0</span></div>
+        </div>
+        <div class="container">
+          <div>Computer</div>
+          <div id="computer">
+            <img src="../assets/pierre.png" id="Computer_0">
+            <img src="../assets/feuille.png" id="Computer_1">
+            <img src="../assets/ciseaux.png" id="Computer_2">
+          </div>
+          <div>Score : <span id="scoreC">0</span></div>
+        </div>
+        <div class="reward">
+          <h1>Wooooooooo <span id="rewarder"></span> a gagné , fin de la partie </h1>
+          <button id="again">Recommencer</button>
+        </div>
+      </div>
+      <script src="../js/index.js"></script>
+</body>
+</html>
