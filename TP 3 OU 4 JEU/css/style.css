@@ -31,3 +31,13 @@
     top: 20px;
     z-index: 2000;
 }
+.childRew{
+    left: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 20px;
+    z-index: 2000;
+}

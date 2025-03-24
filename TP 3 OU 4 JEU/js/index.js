@@ -39,7 +39,6 @@ function Reset() {
     arrayBtn.forEach((btn) => btn.className = "");
     computerBtn.forEach((btn) => btn.className = "");
     shifumi.player = -1;
-    divReward.className = "reward"
 }
 
 arrayBtn.forEach((btn) => {
